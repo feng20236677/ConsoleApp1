@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Class1
+    public  class Class1
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        public static double add(double x, double y)
+        { return x + 2*y; }
+
+        public static double sub(double x, double y)
+        { return x - 2 * y; }
+
     }
 }
